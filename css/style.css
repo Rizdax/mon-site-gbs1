@@ -3,63 +3,23 @@ html,body{
     padding: 0;
 }
 
-.rouge{
-    color: red;
+.row{display: flex;
+justify-content: space-between;
+padding-top: 50px;
 }
 
-.panels{
-    display: flex;
-    height: 100vh;
-    width: 100vw;
-}
-.panel{
-    height: 100%;
-    flex:1;
-    transition: flex 1s;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+.card-img-top{width: 250px;
+height: 250px;
+display: flex;
+justify-content: center;}
 
-    display: flex;
-
-    justify-content: center;
-
-    align-items: center;
-   
-}
-.panel:hover{
-    flex:4
+.card{align-items: center;
+display: flex;
 }
 
-.panel>.titreJeu:hover{
-    opacity: 100%;
+.btn{display: flex;
+align-items: flex-end;
+justify-content: center;
 }
 
-.lion{
-    background-image: url("../img/1.jpg");
-}
 
-.hands{
-    background-image: url("../img/2.jfif");
-  
-
-}
-.eye{
-    background-image: url("../img/3.jpg");
-
-}
-.road{
-    background-image: url("../img/4.jfif");
-
-}
-
-.titreJeu{
-    color: white;
-    font-size: 4em;
-    font-family: 'Roboto';
-    opacity: 0%;
-    transition: opacity 1s;
-}
-
-.container{display: flex;
-flex-direction: column;}
